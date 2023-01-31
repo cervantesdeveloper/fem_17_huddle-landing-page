@@ -1,11 +1,10 @@
-
-import './App.css';
+import Logo from './components/Logo.js';
 
 function App() {
   return (
-    <main className='main'>
-      
-    </main>
+    <>
+      <Logo />
+    </>
   );
 }
 
