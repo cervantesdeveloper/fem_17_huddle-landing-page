@@ -1,6 +1,7 @@
 import Logo from './components/Logo.js';
 import Hero from './components/Hero.js';
 import Media from './components/Media.js';
+import Footer from './components/Footer.js';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Logo />
       <Hero />
       <Media />
+      <Footer />
     </>
   );
 }
