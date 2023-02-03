@@ -115,9 +115,14 @@
         text-align: left;
     }
 
+    .hero > *:nth-child(2){
+        flex-basis: 45%;
+    }
+
     .hero img{
         margin-bottom: 0;
         margin-right: 3.75rem;
+        flex-basis: 55%;
     }
 
     .hero h1{
