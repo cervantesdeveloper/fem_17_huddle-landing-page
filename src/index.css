@@ -62,4 +62,12 @@ p{
       background-image: url("./assets/bg-desktop.svg");
       background-size: auto 100vh;
     }
+
+    body{
+      padding-top: 4rem;
+    }
+
+    p{
+      font-size: 1.125rem;
+    }
 }

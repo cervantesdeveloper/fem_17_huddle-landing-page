@@ -17,8 +17,10 @@ export default function Hero(){
     return(
         <div className={`${styles.hero} ${styles.container}`}>
             <img src={heroImage} alt=""/>
-            <HeroText />
-            <Button />
+            <div>
+                <HeroText />
+                <Button />
+            </div>
         </div>
     )
 }
